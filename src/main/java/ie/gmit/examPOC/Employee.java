@@ -3,6 +3,7 @@ package ie.gmit.examPOC;
 Author: Padraig Ó Cosgora
 Student Number: G00311302
 Date: 06/03/2020
+Contact Detailts: g00311302@gmit.ie
 Module: Software Engineering & Test Exam 2
 
 This class will define the data and methods within the Employee class.
