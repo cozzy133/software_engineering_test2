@@ -53,7 +53,7 @@ public class EmployeeTest {
     }
 
     @Test
-    @DisplayName("Testing Employee Constructor - Invalid Name")
+    @DisplayName("Testing Employee Constructor - Invalid Names")
     void testEmployeeConstructorInvalidName(TestInfo testInfo) {
         Exception invalidNameShort = Assertions.assertThrows(IllegalArgumentException.class, () -> {
             myEmployee = new Employee("mr", "ze", "12345678", "085836512",
@@ -106,7 +106,4 @@ public class EmployeeTest {
         });
         System.out.println(invalidAge);
     }
-
-
-
 }
